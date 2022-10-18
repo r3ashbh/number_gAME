@@ -3,9 +3,9 @@ number = random.randint(1, 10)
 
 player_name = input("Hello Your name? ")
 number_of_guesses = 0
-print('I\'m glad to meet you! {} \nLet\'s play a game with you, I will think a number between 1 and 10 then you will guess, alright? \nDon\'t forget! You have only 4 chances so guess:'.format(player_name))
+print('I\'m glad to meet you! {} \nLet\'s play a game with you, I will think a number between 1 and 10 then you will guess, alright? \nDon\'t forget! You have only 2 chances so guess:'.format(player_name))
 
-while number_of_guesses < 4:
+while number_of_guesses < 2:
     guess = int(input())
     number_of_guesses += 1
     if guess < number:
